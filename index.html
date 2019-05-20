@@ -87,21 +87,56 @@
       <ul class="catalog-list">
           <li class="catalog-item">
               <a href="#">
-                  <img src="img/perforator-bosh-bfg3000.jpg"  width="218" height="170" alt="Перфоратор BOSH BFG 3000">
+                  <img src="img/perforator-bosh-bfg9000.jpg"  width="218" height="170" alt="Перфоратор BOSH BFG 9000">
               </a>
               <p class="catalog-item-price">
-                  <del>22500 P.</del>
-                  <b>15500 Р.</b>
-                  <a class="button" href="#19">Купить</a>
+                  <del>32500 P.</del>
+                  <b>25500 Р.</b>
               </p>
           </li>
-      </ul> 
-
+          <li class="catalog-item">
+            <a href="#">
+                <img src="img/perforator-bosh-bfg3000.jpg"  width="218" height="170" alt="Перфоратор BOSH BFG 3000">
+            </a>
+            <p class="catalog-item-price">
+                <del>22500 P.</del>
+                <b>15500 Р.</b>
+            </p>
+        </li>
+        <li class="catalog-item">
+          <a href="#">
+              <img src="img/perforator-bosh-bfg6000.jpg"  width="218" height="170" alt="Перфоратор BOSH BFG 6000">
+          </a>
+          <p class="catalog-item-price">
+              <del>30500 P.</del>
+              <b>25500 Р.</b>
+          </p>
+      </li>
+      <li class="catalog-item">
+        <a href="#">
+            <img src="img/perforator-bosh-bfg2000.jpg"  width="218" height="170" alt="Перфоратор BOSH BFG 2000">
+        </a>
+        <p class="catalog-item-price">
+            <b>12500 Р.</b>
+        </p>
+    </li>
+  </ul> 
+</section>
+  <section class="main-brand">
+    <h2>Популярные производители:</h2>
+      <a href="#">Все производители</a>
+    <ul class="catalog-brand">
+      <li><a href="#" aria-label="Компания BOSCH"><img src="img/bosch.jpg" width="" height="" alt="Компания BOSCH"></a></li>
+      <li><a href="#" aria-label="Компания Makita"><img src="img/Makita.jpg" width="" height="" alt="Компания Makita"></a></li>
+      <li><a href="#" aria-label="Компания DeWALT"><img src="img/DeWALT.jpg" width="" height="" alt="Компания DeWALT"></a></li>
+      <li><a href="#" aria-label="Компания Интерскол"><img src="img/Интерскол.jpg" width="" height="" alt="Компания Интерскол"></a></li>
+      <li><a href="#" aria-label="Компания HITACHI"><img src="img/Hitachi.jpg" width="" height="" alt="Компания HITACHI"></a></li>
+      <li><a href="#" aria-label="Компания LG"><img src="img/LG.jpg" width="" height="" alt="Компания LG"></a></li>
+      <li><a href="#" aria-label="Компания AEG"><img src="img/AEG.jpg" width="" height="" alt="Компания AEG"></a></li>
+      <li><a href="#" aria-label="Компания metabo"><img src="img/Metabo.png" width="" height="" alt="Компания metabo"></a></li>
+    </ul>
   </section>
-     
-     
-     
-      <section class="main-company-left"> 
+    <section class="main-company-left"> 
       <h2>Компания "Техномарт"</h2>
         <p>
         Настоящий мужской шопинг начинается здесь! Огромный выбор товаров для ремоната
@@ -119,7 +154,7 @@
           <li>ЖелДорЭкспидиция</li>
         </ul>
 
-        <a href="#"><input type="button" value="Подробнее о компании"></a>
+        <a href="#" aria-label="Подробная информация о компании 'Техномарт'"><input type="button" value="Подробнее о компании"></a>
   </section>
     <section class="main-company-right">
       <h2>Контакты</h2>
@@ -177,3 +212,29 @@
   </footer>
   </body>
 </html>
+
+
+
+/* Форма модального окна */
+
+<form method="post" action="form.php">
+  <div class="#">
+    <label for="name">Ваше Имя:</label>
+    <input type="text" name="name" value="Имя Фамилия">
+  </div>
+  
+  <div class="#">
+    <label for="email">Ваш e-mail:</label>
+    <input type="email" name="email" value="email@example.com">
+  </div>
+  
+  <div class="#">
+    <label for="text">Текст Письма:</label>
+    <textarea rows="400" cols="450" name="text" value="В свободной форме"></textarea>
+  </div>
+ 
+  <div class="#">
+    <input type="submit" value="Отправить">
+  </div>
+  
+</form>
