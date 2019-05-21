@@ -78,7 +78,7 @@
 
 <section class="catalog-item">
     <h2>Популярные товары</h2>
-    <a href="">Все популярные товары</a>
+    <a href=""><button type="button">Все Популярные товары</button></a>
       <ul class="catalog-list">
           <li class="catalog-item">
               <a href="#">
@@ -119,7 +119,9 @@
 </section>
   <section class="main-brand">
     <h2>Популярные производители:</h2>
-      <a href="#">Все производители</a>
+      <a href="#">
+        <button type="button">Все производители</button>
+      </a>
     <ul class="catalog-brand">
       <li><a href="#"><img src="img/bosch.jpg" width="" height="" alt="Компания BOSCH"></a></li>
       <li><a href="#"><img src="img/makita.jpg" width="" height="" alt="Компания Makita"></a></li>
@@ -128,7 +130,7 @@
       <li><a href="#"><img src="img/hitachi.jpg" width="" height="" alt="Компания HITACHI"></a></li>
       <li><a href="#"><img src="img/lg.jpg" width="" height="" alt="Компания LG"></a></li>
       <li><a href="#"><img src="img/aeg.jpg" width="" height="" alt="Компания AEG"></a></li>
-      <li><a href="#"><img src="img/metabo.png" width="" height="" alt="Компания metabo"></a></li>
+      <li><a href="#"><img src="img/metabo.jpg" width="" height="" alt="Компания metabo"></a></li>
     </ul>
   </section>
     <section class="main-company-left"> 
@@ -150,7 +152,7 @@
         </ul>
 
         <a href="#" aria-label="Подробная информация о компании 'Техномарт'">
-          <button type="button" value="Подробнее о компании"></button>
+          <button type="button">Подробнее о компании</button>
         </a>
   </section>
     <section class="main-company-right">
@@ -161,7 +163,9 @@
       </p>
       <a href=""><img src="img/maps.jpg" width="" height="" alt="Адрес Компании"></a>
 
-      <a href="">Заблудились?Напишите нам!</a>
+      <a href="">
+        <button type="button">Заблудились?Напишите нам!</button>
+      </a>
   </section>
 </main>
 
@@ -214,22 +218,21 @@
 
 /* Форма модального окна */
 
-<form method="post" action="">
+<form method="post" action="https://echo.htmlacademy.ru">
   <div class="#">
     <label for="name">Ваше Имя:</label>
-    <input type="text" name="name" value="Имя Фамилия">
+    <input type="text" name="name" placeholder="Имя Фамилия">
   </div>
   
   <div class="#">
     <label for="email">Ваш e-mail:</label>
-    <input type="email" name="email" value="email@example.com">
+    <input type="email" name="email" placeholder="email@example.com">
   </div>
   
   <div class="#">
     <label for="text">Текст Письма:</label>
-    <textarea rows="50" cols="50" name="text" value="В свободной форме"></textarea>
+    <textarea rows="50" cols="50" name="text" placeholder="В свободной форме"></textarea>
   </div>
  
-  <button type="submit" value="Отправить"></button>
-  
+  <button type="submit">Отправить</button>
 </form>
