@@ -1,55 +1,87 @@
 
-body {
-    margin: 0;
-    padding: 0;
-    font-family: "PT Sans", sans-serif;
-    font-size: 14px;
-    line-height: 20px;
-    font-weight: 250;
-    color: black;
-    }
-
-a {
-    text-decoration: none;
+.header-content {
+    background-color: #f4f7f9;
 }
-li { 
-    list-style-type: none;
-}
-
-.header-holder  {
-    width:auto;
-    height:50px;
+.header-holder  {                                           /* Header */
+    margin:0 auto;
     background-color: #293449;
+    display: flex;
+    align-content: center;
 }
-
-ul.header-navigation {
-    position: absolute;
-    top:0px;
-    left:900px;
+.header-logo {
+    display: flex; 
+    margin-left:100px;
+    background-color: #ee3643; 
+    width:200px;
+   
+}
+.header-logo  a {
+    margin-left:35px;  
+    margin-top:10px;
 }
 .search {
- position: absolute;   
- top:14px;
- left:450px;
-}
-
-.header-navigation li {  
-    display: inline;
-    padding: 30px;
-    
-}
-.header-navigation li a {
+    display: flex;
     color:#fff;
-    font-size:17px;
-    font-family: "Cuprum",sans-serif;
+    font-size:15px;
+    font-family: "Cuprum", sans-serif;
+    margin-left:40px;
+    margin-top:7px;
 }
-
+.header-navigation li,
+.header-navigation li a {
+    list-style: none;
+    text-decoration: none;
+    color:#fff;
+    font-size:15px;
+    font-family: "Cuprum", sans-serif;
+    padding:10px;
+}
+ul.header-navigation {
+    display: flex;
+    padding-left:150px;
+    margin-top:0px;
+    margin-bottom: 0px;
+}
+.green-button {
+    background-color:#63a63e;
+}
 .holder-content {
-    border:2px solid black;
-    background-color: #f3f7f8;
+    display: flex;
+    margin:0 auto;
+    justify-content: space-evenly;
+   
 }
-
-.site-navigation li {
-    display: inline;
+.holder-box h1 p {
+    display: flex;
+    font-family: "Cuprum",sans-serif;
+    font-size: 16px;
+    color: rgb(238, 54, 67);
+    font-style: italic;
+    width:200px;
 }
+.header-tell {
+    display: flex;
+    font-size: 14px;
+    font-family: "PT Sans",sans-serif;
+    color:rgb(50, 66, 92);
+}
+.header-tell a {
+    list-style: none;
+    text-decoration: none; 
+    color: rgb(238, 54, 67);
+    font-family: "Cuprum",sans-serif;
+    font-size: 21px;
+    border:3px solid #fff;
+    width:200px;
+    height:40px;
+    padding-left:60px;
+    padding-top:15px;
+    margin-top:10px;
+} 
 
+    
+
+
+    
+    
+  
