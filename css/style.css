@@ -10,7 +10,7 @@
 }
 .header-logo {
     display: flex; 
-    margin-left:100px;
+    margin-left:150px;
     background-color: #ee3643; 
     width:200px;
    
@@ -38,9 +38,10 @@
 }
 ul.header-navigation {
     display: flex;
-    padding-left:150px;
+    padding-left:550px;
     margin-top:0px;
     margin-bottom: 0px;
+
 }
 .green-button {
     background-color:#63a63e;
@@ -49,7 +50,6 @@ ul.header-navigation {
     display: flex;
     margin:0 auto;
     justify-content: space-evenly;
-   
 }
 .holder-box h1 p {
     display: flex;
@@ -59,11 +59,16 @@ ul.header-navigation {
     font-style: italic;
     width:200px;
 }
-.header-tell {
-    display: flex;
+ul.header-tell{ 
+    margin-top:33px;
+}
+ul.header-tell li {
     font-size: 14px;
     font-family: "PT Sans",sans-serif;
     color:rgb(50, 66, 92);
+    list-style: none;
+    text-decoration: none;
+    margin-top:7px;
 }
 .header-tell a {
     list-style: none;
@@ -72,16 +77,55 @@ ul.header-navigation {
     font-family: "Cuprum",sans-serif;
     font-size: 21px;
     border:3px solid #fff;
-    width:200px;
-    height:40px;
-    padding-left:60px;
-    padding-top:15px;
-    margin-top:10px;
-} 
-
+    padding-right:60px;
+    padding-left: 50px;
+    padding-top:5px;
+}
+ul.user-navigation {
+    display: flex;
+    font-family: "Cuprum",sans-serif;
+    font-size: 18px;    
     
+}
+.user-navigation button {
+    display: flex;
+    color: black; 
+    width:130px;
+    margin:15px;
+    
+}    
+.button-one {
+    padding-left:55px;
+    background-color: #fff;
+}
 
+.button-two {
+    padding-left: 20px;
+    background-color: #fff;
+}
 
+ul.site-navigation{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: center;
+    
+}
+ul.site-navigation a {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    color:#fff;
+    font-size: 18px;
+    font-family: "Cuprum",sans-serif;
+    justify-content: center;
+    padding-left:65px;
+    padding-right: 43px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #293449;
+    
+}
     
     
   
