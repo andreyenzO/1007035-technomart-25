@@ -64,7 +64,7 @@ ul.header-navigation {
 
 .header-tell  {
     font-size: 14px;
-    font-family: "PT Sans",sans-serif;
+    font-family: "Cuprum",sans-serif;
     color:rgb(50, 66, 92);
     list-style: none;
     text-decoration: none;
@@ -173,5 +173,102 @@ ul.main-holder-company li {
    border-radius: 6px 6px 6px 6px;
    width: 270px;
    height: 35px;
-   
-}  
+}
+                                /* Footer */ 
+
+.footer-section-a {
+    margin-top:50px;    
+    background-color: #32425c;
+    display: flex;
+    color:#fff;
+    font-family: "Cuprum", sans-serif;
+    justify-content: space-around;
+}
+.footer-section-b {
+    background-color:#293449 ;
+    display: flex;
+    color:#fff;
+    font-family: "Cuprum", sans-serif;
+    justify-content: space-around;
+}
+
+.footer-logo {
+    display: flex; 
+    background-color: #ee3643; 
+    width: 200px;
+    height: 50px;
+    border-bottom: 5px solid #612215;
+}
+.footer-logo img {
+    padding-top:15px;
+    padding-left:30px;
+}
+.footer-contact {
+    margin-top:70px;
+    margin-left:-500px;  
+}
+.footer-contact a,
+.footer-contact address {
+    color:#fff;
+    text-decoration: none;
+    font-family: "PT Sans", sans-serif;
+    font-size:14px;
+}
+.footer-list {
+    margin-right: 80px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+ul.footer-navigation  {
+    display: flex;
+}
+ul.footer-navigation li {
+    list-style: none;
+}
+ul.footer-navigation a {
+    color: #fff;
+    text-decoration: none;
+    padding: 30px;
+}
+ul.footer-navigation-list {
+    display: flex; 
+}
+ul.footer-navigation-list li {
+    list-style: none;
+}
+ul.footer-navigation-list a {
+    color:#ffd180;
+    text-decoration: none;
+    padding: 35px;
+}
+.footer-a {
+    display: flex;
+    flex-basis: 240px;
+}
+.footer-social {
+    display: flex;
+    list-style: none;
+}
+.footer-social a {
+    text-decoration: none;
+    color:#fff;
+    padding: 5px;
+}
+.footer-c {
+    display: flex;
+    flex-basis: 20px;
+}
+.footer-c a {
+    text-decoration: none;
+    color:#ffd180; 
+}
+.footer-d {
+    display: flex;
+    flex-basis: 100px;
+}
+.footer-d a {
+    text-decoration: none;
+    color:#ffd180; 
+}
+
+
