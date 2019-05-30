@@ -14,7 +14,6 @@
     margin-left: 150px;
     background-color: #ee3643; 
     width: 200px;
-   
 }
 .header-logo  a {
     margin-left: 35px;  
@@ -46,6 +45,39 @@ ul.header-navigation {
 }
 .button-head {
     background-color:#63a63e;
+}
+.button-head-2 {
+    background-color: #ee3643;
+}
+.block-user {
+    display: flex;
+}
+.block-user button {
+    display: flex;  
+    width:230px;
+    height: 30px;
+    margin-top:20px;
+    margin-left:30px;
+    font-weight: 700;
+    font-family: "Cuprum", sans-serif;
+    padding-left:30px;
+}
+.block-user a {
+    text-decoration: none;
+    color:black;
+      
+}
+ul.user-activity {
+    display: flex;
+    margin-top:50px;
+    margin-left:-250px;
+}
+ul.user-activity li {
+    display: flex;
+    font-weight: 700;
+    font-size: 13px;
+    padding:7px;
+    font-family: "Cuprum", sans-serif;
 }
 .holder-content {
     display: flex;
@@ -129,8 +161,71 @@ ul.site-navigation a {
     padding-bottom: 20px;
     background-color: #293449;  
 }
+ul.category {
+    display: flex;
+    list-style: none;
+    margin-left:150px;
+}
+ul.category li {
+    padding: 15px;
+}
+ul.category a {
+    text-decoration: none;
+}
  
-                                               /* Main */
+                                                /* Main */
+.main {
+    display: flex;
+    justify-content: flex-start;
+    font-family: "Cuprum", sans-serif;
+    font-size: 30px;
+    margin-left:180px;
+    margin-right: 150px;
+    background-color:#f4f7f9;
+    padding:20px; 
+}
+.main-filter {
+    font-weight: 700;
+    font-family: "Cuprum", sans-serif;
+    font-size: 18px;
+}
+.main-filter2 {
+    font-weight: 700;
+    font-family: "Cuprum", sans-serif;
+    font-size: 18px;
+}
+.sidebar-left {
+    margin-left:180px;
+    width: 150px;
+}
+.sidebar-left button {
+    border-radius: 5px 5px 5px 5px;
+}                                               
+.container {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+.catalog-list {
+    list-style: none;
+    margin-top: -360px;
+    margin-right:150px;
+}
+.catalog-list li {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 120px;
+    padding-right: 10px;
+}
+.block-item {
+    display: flex;
+}
+.block-item-2 {
+    display: flex;
+}
+.block-item-3 {
+    display: flex;
+}
 .main-company {
    display: flex;
    margin: 0 auto;
