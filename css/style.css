@@ -1,6 +1,7 @@
 
 .header-content {
     background-color: #f4f7f9;
+    height: 0%;
 }
 .header-holder  {                                           /* Header */
     margin:0 auto;
@@ -10,65 +11,68 @@
 }
 .header-logo {
     display: flex; 
-    margin-left:150px;
+    margin-left: 150px;
     background-color: #ee3643; 
-    width:200px;
+    width: 200px;
    
 }
 .header-logo  a {
-    margin-left:35px;  
-    margin-top:10px;
+    margin-left: 35px;  
+    margin-top: 10px;
 }
 .search {
     display: flex;
     color:#fff;
-    font-size:15px;
+    font-size: 15px;
     font-family: "Cuprum", sans-serif;
-    margin-left:40px;
-    margin-top:7px;
+    margin-left: 40px;
+    margin-top: 7px;
 }
 .header-navigation li,
 .header-navigation li a {
     list-style: none;
     text-decoration: none;
     color:#fff;
-    font-size:15px;
+    font-size: 15px;
     font-family: "Cuprum", sans-serif;
-    padding:10px;
+    padding: 10px;
 }
 ul.header-navigation {
     display: flex;
-    padding-left:550px;
-    margin-top:0px;
+    padding-left: 550px;
+    margin-top: 0px;
     margin-bottom: 0px;
 
 }
-.green-button {
+.button-head {
     background-color:#63a63e;
 }
 .holder-content {
     display: flex;
-    margin:0 auto;
+    margin: 0 auto;
     justify-content: space-evenly;
 }
-.holder-box h1 p {
+.holder-box h1  {
     display: flex;
     font-family: "Cuprum",sans-serif;
     font-size: 16px;
     color: rgb(238, 54, 67);
     font-style: italic;
-    width:200px;
+    width: 180px;   
+    margin-top: 20px;
 }
-ul.header-tell{ 
-    margin-top:33px;
-}
-ul.header-tell li {
+
+.header-tell  {
     font-size: 14px;
     font-family: "PT Sans",sans-serif;
     color:rgb(50, 66, 92);
     list-style: none;
     text-decoration: none;
-    margin-top:7px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.header-tell address {
+   padding-top: 5px; 
 }
 .header-tell a {
     list-style: none;
@@ -76,10 +80,10 @@ ul.header-tell li {
     color: rgb(238, 54, 67);
     font-family: "Cuprum",sans-serif;
     font-size: 21px;
-    border:3px solid #fff;
-    padding-right:60px;
+    border: 3px solid #fff;
+    padding-right: 60px;
     padding-left: 50px;
-    padding-top:5px;
+    padding-top: 5px;
 }
 ul.user-navigation {
     display: flex;
@@ -90,12 +94,12 @@ ul.user-navigation {
 .user-navigation button {
     display: flex;
     color: black; 
-    width:130px;
-    margin:15px;
+    width: 130px;
+    margin: 15px;
     
 }    
 .button-one {
-    padding-left:55px;
+    padding-left: 55px;
     background-color: #fff;
 }
 
@@ -109,7 +113,7 @@ ul.site-navigation{
     text-decoration: none;
     list-style-type: none;
     justify-content: center;
-    
+    margin-bottom: 70px;
 }
 ul.site-navigation a {
     display: flex;
@@ -119,13 +123,55 @@ ul.site-navigation a {
     font-size: 18px;
     font-family: "Cuprum",sans-serif;
     justify-content: center;
-    padding-left:65px;
+    padding-left: 65px;
     padding-right: 43px;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: #293449;
-    
+    background-color: #293449;  
 }
-    
-    
-  
+ 
+                                               /* Main */
+.main-company {
+   display: flex;
+   margin: 0 auto;
+   justify-content: center;
+}
+.main-company-left h2,
+.main-company-right h2 {
+    font-size: 30px;
+    font-family: "Cuprum", sans-serif; 
+}
+
+.main-company-left {
+    font-family: "Cuprum", sans-serif;
+    font-size: 14px;
+    flex-basis: 35%;
+}
+
+.main-company-right {
+    font-family: "Cuprum", sans-serif;
+    font-size: 14px;
+}
+
+ul.main-holder-company li {
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 10px; 
+}
+
+.button-3 {
+   background-color: #ee3643;
+   color:#fff;
+   border-radius: 6px 6px 6px 6px; 
+   width: 200px;
+   height: 35px;
+   margin-top:2px;
+}
+.button-4 {
+   background-color: #ee3643;
+   color:#fff; 
+   border-radius: 6px 6px 6px 6px;
+   width: 270px;
+   height: 35px;
+   
+}  
