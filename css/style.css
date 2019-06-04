@@ -23,10 +23,7 @@
     display: flex;
     color:#fff;
     font-size: 15px;
-    font-family: "Cuprum", sans-serif;
-    margin-left: 40px;
-    margin-top: 7px;
-    margin-bottom: 7px;
+    font-family: "Cuprum", sans-serif; 
 }
 .search input:focus {
     border-color:red;
@@ -124,7 +121,8 @@ ul.user-activity li {
     margin-left: 25px;
 }
 .header-tell address {
-   padding-top: 5px; 
+   padding-top: 5px;
+    
 }
 .header-tell a {
     list-style: none;
@@ -182,7 +180,7 @@ ul.site-navigation a {
     padding-right: 43px;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: #293449;  
+    background-color: #32425c;  
 }
 .site-navigation a:hover,
 .site-navigation a:focus {
@@ -227,6 +225,9 @@ ul.category a {
 }
 .main-filter2 input {
     margin-left:-20px;  
+}
+.form-button {
+    text-transform:uppercase;
 }
 .sidebar-left {
     margin-left:180px;
