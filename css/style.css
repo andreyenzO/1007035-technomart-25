@@ -1,4 +1,15 @@
 
+body {
+    min-width: 960px;
+    max-width:960px;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "PT Sans", "Arial", sans-serif;
+}  
+
 .header-content {
     background-color: #f4f7f9;
     height: 280px;
@@ -7,19 +18,20 @@
     margin:0 auto;
     background-color: #293449;
     display: flex;
-    align-content: center;
+    justify-content: center;
 }
 .holder-box {
-    width:200px;   
+    height: 90px;   
 }
 .holder-content {
     margin:0 auto;
     display: flex;
     justify-content: center;
+    width: 960px;
 }
 .header-logo {
     display: flex; 
-    margin-left: 150px;
+    margin-left: 40px;
     background-color: #ee3643; 
     width: 200px;
 }
@@ -31,7 +43,7 @@
     display: flex;
     color:#fff;
     font-size: 15px;
-    font-family: "Cuprum", sans-serif; 
+    font-family: "Cuprum","Arial", sans-serif; 
 }
 .search input:focus {
     border-color:red;
@@ -43,12 +55,12 @@
     text-decoration: none;
     color:#fff;
     font-size: 15px;
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum","Arial", sans-serif;
     padding: 10px;
 }
 ul.header-navigation {
     display: flex;
-    padding-left: 550px;
+    padding-left: 180px;
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -69,7 +81,7 @@ ul.header-navigation {
 .user-login  {
     text-decoration: none;
     color:black;
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum","Arial", sans-serif;
     font-size:16px;
     font-weight: 600;
     margin-right:10px;
@@ -85,7 +97,7 @@ ul.header-navigation {
 .block-user a {
     text-decoration: none;
     color:black;
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum","Arial", sans-serif;
     font-size:16px;
 }
 ul.user-activity {
@@ -98,7 +110,7 @@ ul.user-activity li {
     font-weight: 700;
     font-size: 13px;
     padding:7px;
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum","Arial", sans-serif;
 }
 .user-activity a:hover,
 .user-activity a:focus {
@@ -111,32 +123,32 @@ ul.user-activity li {
 }
 .holder-box h1  {
     display: flex;
-    font-family: "Cuprum",sans-serif;
+    font-family: "Cuprum","Arial",sans-serif;
     font-size: 16px;
     color: rgb(238, 54, 67);
     font-style: italic;
-    width: 180px;   
-    margin-top: 20px;
+    width: 200px;   
+    margin-top: 15px;
+    padding-left:50px;
 }
 
 .header-tell  {
     font-size: 14px;
-    font-family: "Cuprum",sans-serif;
+    font-family: "Cuprum","Arial",sans-serif;
     color:rgb(50, 66, 92);
     list-style: none;
     text-decoration: none;
-    margin-top: 25px;
-    margin-left: 25px;
+    margin-top: 35px;
+    margin-left: 15px;
 }
 .header-tell address {
    padding-top: 5px;
-    
 }
 .header-tell a {
     list-style: none;
     text-decoration: none; 
     color: rgb(238, 54, 67);
-    font-family: "Cuprum",sans-serif;
+    font-family: "Cuprum","Arial",sans-serif;
     font-size: 21px;
     border: 3px solid #fff;
     padding-right: 60px;
@@ -146,7 +158,7 @@ ul.user-activity li {
 
 ul.user-navigation {
     display: flex;
-    font-family: "Cuprum",sans-serif;
+    font-family: "Cuprum","Arial",sans-serif;
     font-size: 18px;    
     
 }
@@ -154,7 +166,7 @@ ul.user-navigation {
     display: flex;
     color: black; 
     width: 130px;
-    margin: 15px;  
+    margin: 10px;  
 } 
 .user-navigation button:hover,
 .user-navigation button:focus {
@@ -173,32 +185,34 @@ ul.user-navigation {
 ul.site-navigation{
     display: flex;
     text-decoration: none;
-    list-style-type: none;
     justify-content: center;
     margin-bottom: 70px;
 }
 ul.site-navigation a {
     display: flex;
     text-decoration: none;
-    list-style-type: none;
     color:#fff;
     font-size: 18px;
-    font-family: "Cuprum",sans-serif;
+    font-family: "Cuprum","Arial",sans-serif;
     justify-content: center;
-    padding-left: 65px;
-    padding-right: 43px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-color: #32425c;  
+      
+}
+ul.site-navigation li {
+    list-style-type: none;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:25px;
+    padding-right:25px;
+    background-color: #32425c;
 }
 .site-navigation a:hover,
 .site-navigation a:focus {
-    color:#ffd180;
+    color:#fff;
 }
 ul.category {
     display: flex;
     list-style: none;
-    margin-left:150px;
+    margin-left:340px;
 }
 ul.category li {
     padding: 15px;
@@ -216,16 +230,16 @@ ul.category a {
 .main {
     display: flex;
     justify-content: flex-start;
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum","Arial", sans-serif;
     font-size: 30px;
-    margin-left:180px;
-    margin-right: 150px;
+    margin-left:390px;
+    margin-right: 340px;
     background-color:#f4f7f9;
     padding:20px; 
 }
 
 .main-filter2 {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum","Arial", sans-serif;
     font-size: 16px;
 }
 
@@ -284,18 +298,18 @@ ul.category a {
 .main-company-left h2,
 .main-company-right h2 {
     font-size: 30px;
-    font-family: "Cuprum", sans-serif; 
+    font-family: "Cuprum","Arial", sans-serif; 
 }
 
 .main-company-left {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum","Arial", sans-serif;
     font-size: 14px;
     word-break: break-all;
     width: 500px;
 }
 
 .main-company-right {
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum","Arial", sans-serif;
     font-size: 14px;
 }
 
@@ -334,43 +348,47 @@ ul.main-holder-company li {
                                                             /* Footer */ 
 
 .footer-section-a {
-    margin: 0 auto;
-    margin-top:50px;    
+    margin: 0 auto;    
     background-color: #32425c;
     display: flex;
     color:#fff;
-    font-family: "Cuprum", sans-serif;
-    justify-content: space-around;
+    font-family: "Cuprum","Arial", sans-serif;
+    justify-content: center;
 }
 .footer-section-b {
     margin: 0 auto;
     background-color:#293449 ;
     display: flex;
     color:#fff;
-    font-family: "Cuprum", sans-serif;
-    justify-content: space-around;
+    font-family: "Cuprum","Arial", sans-serif;
+    justify-content:space-evenly;
+}
+.footer-wrapper {
+    width:300px;
+    padding-left:40px;
 }
 
 .footer-logo {
     display: flex; 
     background-color: #ee3643; 
-    width: 200px;
+    width: 180px;
     height: 50px;
     border-bottom: 5px solid #612215;
+    padding-left: 40px;
 }
 .footer-logo img {
     padding-top:15px;
-    padding-left:30px;
+   
 }
 .footer-contact {
-    margin-top:70px;
-    margin-left:-500px;  
+    margin-top:5px;
+    height:60px;
 }
 .footer-contact a,
 .footer-contact address {
     color:#fff;
     text-decoration: none;
-    font-family: "PT Sans", sans-serif;
+    font-family: "PT Sans","Arial", sans-serif;
     font-size:14px;
 }
 .footer-contact a:hover,
@@ -416,6 +434,7 @@ ul.footer-navigation-list a {
 .footer-a {
     display: flex;
     flex-basis: 240px;
+    
 }
 .footer-social {
     display: flex;
