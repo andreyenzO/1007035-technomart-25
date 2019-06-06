@@ -1,13 +1,21 @@
 
 .header-content {
     background-color: #f4f7f9;
-    height: 0%;
+    height: 280px;
 }
 .header-holder  {                                           /* Header */
     margin:0 auto;
     background-color: #293449;
     display: flex;
     align-content: center;
+}
+.holder-box {
+    width:200px;   
+}
+.holder-content {
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
 }
 .header-logo {
     display: flex; 
@@ -135,6 +143,7 @@ ul.user-activity li {
     padding-left: 50px;
     padding-top: 5px;
 }
+
 ul.user-navigation {
     display: flex;
     font-family: "Cuprum",sans-serif;
@@ -240,6 +249,7 @@ ul.category a {
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
+    margin:0 auto;
 }
 .catalog-list {
     list-style: none;
@@ -280,7 +290,8 @@ ul.category a {
 .main-company-left {
     font-family: "Cuprum", sans-serif;
     font-size: 14px;
-    flex-basis: 35%;
+    word-break: break-all;
+    width: 500px;
 }
 
 .main-company-right {
@@ -323,6 +334,7 @@ ul.main-holder-company li {
                                                             /* Footer */ 
 
 .footer-section-a {
+    margin: 0 auto;
     margin-top:50px;    
     background-color: #32425c;
     display: flex;
@@ -331,6 +343,7 @@ ul.main-holder-company li {
     justify-content: space-around;
 }
 .footer-section-b {
+    margin: 0 auto;
     background-color:#293449 ;
     display: flex;
     color:#fff;
@@ -374,11 +387,11 @@ ul.footer-navigation  {
 }
 ul.footer-navigation li {
     list-style: none;
+    padding-left: 60px;
 }
 ul.footer-navigation a {
     color: #fff;
-    text-decoration: none;
-    padding: 30px;
+    text-decoration: none;    
 }
 .footer-navigation a:hover,
 .footer-navigation a:focus {
@@ -390,11 +403,11 @@ ul.footer-navigation-list {
 }
 ul.footer-navigation-list li {
     list-style: none;
+    padding-left: 70px;
 }
 ul.footer-navigation-list a {
     color:#ffd180;
     text-decoration: none;
-    padding: 35px;
 }
 .footer-navigation-list a:hover,
 .footer-navigation-list a:focus {
